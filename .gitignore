@@ -1,0 +1,5 @@
+# HyperFrames: lokale Artefakte und Master-Render (zu groß fürs Repo)
+film/.hyperframes/
+film/renders/
+film/node_modules/
+.DS_Store
