@@ -6,7 +6,7 @@ Statische Seite, ohne Build-Schritt. Einfach den Ordner auf einen Webspace laden
 |---|---|
 | `index.html` | Die Seite |
 | `styles.css` | Gestaltung |
-| `main.js` | Animationen (GSAP + ScrollTrigger + Lenis), Öffnungszeiten-Status, Formular |
+| `main.js` | Öffnungszeiten-Status, HU-Plakette, Formular, Einblenden beim Scrollen (ohne Bibliotheken) |
 | `img/` | Platzhalter-Fotos (CC0, siehe `img/BILDNACHWEIS.tsv`) |
 | `video/` | Hero-Film fürs Web (`hero.mp4` Desktop, `hero-mobil.mp4`, `hero-poster.jpg`) |
 | `film/` | HyperFrames-Projekt, aus dem der Hero-Film gerendert wird |
@@ -32,4 +32,5 @@ Echte Fotos: in `film/assets/` mit gleichem Dateinamen ersetzen und neu rendern.
 - Formular an einen Formular-Dienst anbinden (aktuell öffnet es nur das E-Mail-Programm)
 - `impressum.html` und `datenschutz.html` anlegen
 - Platzhalter-Fotos durch echte Fotos des Betriebs ersetzen
-- Google Fonts und CDN-Skripte (GSAP, Lenis) für DSGVO lokal einbinden
+- Google Fonts (Barlow, Barlow Condensed, JetBrains Mono) für DSGVO lokal einbinden
+- Festpreis-Tabelle, Team und Über-uns-Text mit echten Angaben füllen; Ort (hier "Gummersbach") bestätigen
